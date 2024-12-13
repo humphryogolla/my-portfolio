@@ -1,4 +1,4 @@
-body{
++body{
     font-family: Arial,Sans-serif;
     margin: 0px;
     padding: 0PX;
@@ -34,9 +34,32 @@ body{
                 text-align: center;
              }
              #project,#about#contact-me.{
-               max-width: 800px;
+             max-width: 800px;
                margin: 20px outo;
              }
+.project{
+    back-groundcolour: gold;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shodow: 0 4px 6px rgbo(0 0 0 0.1) ;
+    transition:tranform 0.3s ease -in-out
+    display:flex;
+    flex-diroction:column;
+    align-items:center;
+    }
+.project:horver{
+    trancition:translate(-5px)
+    }
+form{
+    displayflex
+    flex-daeraction:column;
+    gap:15px;
+    max-width:400px;
+    margin:0 auto;
+}
+
+
              section h2{
    color: #333;
    margin-bottom: 10px;
