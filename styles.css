@@ -1,4 +1,4 @@
-+body{
+body{
     font-family: Arial,Sans-serif;
     margin: 0px;
     padding: 0PX;
@@ -22,6 +22,9 @@
              nav ul li a{
                 color:blue;
                 text-decoration: none;
+                 fornt-weigt:bold;
+                 transition-colour
+                 position:relative;
              }
              nav ul li a:hover{
                color:gray;
@@ -29,7 +32,7 @@
 
              section{
                 margin: 20px auto;
-                padding: 50px;
+                padding:50px 50px;
                 max-width: 800px;
                 text-align: center;
              }
@@ -58,8 +61,21 @@ form{
     max-width:400px;
     margin:0 auto;
 }
-
-
+input,textarea,button{
+    widith:100%;
+    padding:10px;
+    fornt-size:1rem;
+    border:1px solid#ccc;
+     border-radias:5px;   
+}
+buton{
+    background-colur:333;
+    colour white
+    coiurser:pointer;
+    transition:background-colour03s
+        ease?
+        background-colour#ff9800;
+}
              section h2{
    color: #333;
    margin-bottom: 10px;
@@ -67,9 +83,28 @@ form{
 footer{
    background-color: #333;
    color: #fff;
-   text-align: center;
+   text-align:center;
    padding: 10px 0;
    position: absolute;
    bottom: 0;
    width: 100%;
+}
+nav ul li a:befor{
+    contanc:'';
+    position:absolut;
+    left:0;
+    bottom:0;
+    height:2px;
+    widith:0;
+    background:#ff 9800;
+    transition:widith0.3s cose-in-out;
+}
+nav ul li a:hever;:befor{
+    widith:100%;
+}
+@media (max-widith:768px){nau ul{
+    flex-direction:colum;
+    project{
+        tex-align:center;
+    }
 }
