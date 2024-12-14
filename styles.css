@@ -65,23 +65,23 @@ form{
     gap:15px;
     max-width:400px;
     margin:0 auto;
+    color:wite;
 }
 input,textarea,button{
     widith:100%;
     padding:10px;
     fornt-size:1rem;
-    border:1px solid#ccc;
+    border:1px solid #ccc;
      border-radias:5px;   
 }
-buton{
-    background-colur:333;
-    colour white
-    coiurser:pointer;
-    transition:background-colour03s
-        ease?
-        background-colour#ff9800;
+button{
+    background-color:#333;
+    color:white;
+    cursor:pointer;
+    transition:background-color 0.3s ease;
+    background-color:#ff9800;
 }
-             section h2{
+section h2{
    color: #333;
    margin-bottom: 10px;
 }
