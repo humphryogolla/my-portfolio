@@ -1,14 +1,17 @@
 body{
-    font-family: Arial,Sans-serif;
+    font-family:Roboto,Sans-serif;
     margin: 0px;
     padding: 0PX;
     line-height: 1.6;
+    box-sizing:border-box;
+    background-colour:black#282c34;
+    colour:rgb(29,27,27);
+    
     }
     header{
         background-color: red ;
-
         color: #fff;
-        padding: 1ram 0;
+        padding:20px 0;
         text-align: center;
         }
         nav ul{
