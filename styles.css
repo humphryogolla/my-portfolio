@@ -6,6 +6,7 @@ body{
     box-sizing:border-box;
     background-color:#282c34;
     colour:rgb(29,27,27);
+    font-size:18px;
     
     }
     header{
@@ -16,36 +17,37 @@ body{
         }
         nav ul{
             list-style:none ;
-            padding: 0;
+            display:flex;
+            justifay-contant:center;
+            margin:0px;
+             padding: 0;
             }
      nav ul li{
-        display: inline;
-        margin: 0 15px;
+        margin: 0 25px;
             }  
              nav ul li a{
                 color:blue;
                 text-decoration: none;
                  fornt-weigt:bold;
-                 transition-colour
-                 position:relative;
+                 transition-color:0.3s ease;
+             font-size  :15rem;
+                 padding:10px 15px;
              }
              nav ul li a:hover{
                color:gray;
              }
 
              section{
-                margin: 20px auto;
-                padding:50px 50px;
-                max-width: 800px;
-                text-align: center;
+                padding:50px 20px;
+                 text-align:center;
              }
              #project,#about#contact-me.{
              max-width: 800px;
                margin: 20px outo;
              }
 .project{
-    back-groundcolour: gold;
-    margin:20px;
+    back-groundcolour: wite;
+    margin:20px outo;
     padding:20px;
     border-radius:10px;
     box-shodow: 0 4px 6px rgbo(0 0 0 0.1) ;
@@ -55,7 +57,7 @@ body{
     align-items:center;
     }
 .project:horver{
-    trancition:translate(-5px)
+    trancfon:translate y(-5px)
     }
 form{
     displayflex
